@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Footer from '../Components/Footer';
+import Footer from '../Components/Footer.jsx';
 import ProductItem from '../components/ProductItem';
 import { Link } from 'react-router-dom';
 
