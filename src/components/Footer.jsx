@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="footer-col-2">
-            <img src={logoWhite} alt="RajStore Logo" />
+            <img src={logoWhite} alt="NaveenStore Logo" />
             <p>
               Our Purpose Is To Sustainably Make the Pleasure and Benefits of
               Sports Accessible to the Many.
