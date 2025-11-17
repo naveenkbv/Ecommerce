@@ -7,6 +7,7 @@ import Account from "./pages/Account";
 import Cart from "./pages/Cart";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+
 // Admin
 import AdminLayout from "./pages/admin/AdminLayout";
 import Dashboard from "./pages/admin/Dashboard";
@@ -15,8 +16,9 @@ import AdminProductsPage from "./pages/admin/Products";
 import Users from "./pages/admin/Users";
 import Analytics from "./pages/admin/Analytics";
 import Settings from "./pages/admin/Settings";
+
 import { AuthProvider } from "./context/AuthContext";
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./Components/ProtectedRoute"; // ⬅️ Updated path
 import Login from "./pages/admin/Login";
 import { ToastContainer } from "react-toastify";
 
